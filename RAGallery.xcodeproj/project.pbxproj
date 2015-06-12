@@ -14,6 +14,15 @@
 		B99CAA161B2ABFDD00F3DD16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99CAA151B2ABFDD00F3DD16 /* Images.xcassets */; };
 		B99CAA191B2ABFDD00F3DD16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99CAA171B2ABFDD00F3DD16 /* LaunchScreen.xib */; };
 		B99CAA251B2ABFDD00F3DD16 /* RAGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B99CAA241B2ABFDD00F3DD16 /* RAGalleryTests.m */; };
+		B99CAA371B2ABFFF00F3DD16 /* CGHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B99CAA301B2ABFFF00F3DD16 /* CGHelpers.m */; };
+		B99CAA381B2ABFFF00F3DD16 /* RAGalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B99CAA321B2ABFFF00F3DD16 /* RAGalleryCell.m */; };
+		B99CAA391B2ABFFF00F3DD16 /* RAGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B99CAA341B2ABFFF00F3DD16 /* RAGalleryFlowLayout.m */; };
+		B99CAA3A1B2ABFFF00F3DD16 /* RAGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99CAA361B2ABFFF00F3DD16 /* RAGalleryViewController.m */; };
+		B99CAA3C1B2AC26700F3DD16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99CAA3B1B2AC26700F3DD16 /* CoreGraphics.framework */; };
+		B99CAA421B2ACA6600F3DD16 /* kitten0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B99CAA3E1B2ACA6600F3DD16 /* kitten0.jpg */; };
+		B99CAA431B2ACA6600F3DD16 /* kitten1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B99CAA3F1B2ACA6600F3DD16 /* kitten1.jpg */; };
+		B99CAA441B2ACA6600F3DD16 /* kitten2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B99CAA401B2ACA6600F3DD16 /* kitten2.jpg */; };
+		B99CAA451B2ACA6600F3DD16 /* kitten3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B99CAA411B2ACA6600F3DD16 /* kitten3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,19 @@
 		B99CAA1E1B2ABFDD00F3DD16 /* RAGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99CAA231B2ABFDD00F3DD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B99CAA241B2ABFDD00F3DD16 /* RAGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAGalleryTests.m; sourceTree = "<group>"; };
+		B99CAA2F1B2ABFFF00F3DD16 /* CGHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGHelpers.h; sourceTree = "<group>"; };
+		B99CAA301B2ABFFF00F3DD16 /* CGHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGHelpers.m; sourceTree = "<group>"; };
+		B99CAA311B2ABFFF00F3DD16 /* RAGalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAGalleryCell.h; sourceTree = "<group>"; };
+		B99CAA321B2ABFFF00F3DD16 /* RAGalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAGalleryCell.m; sourceTree = "<group>"; };
+		B99CAA331B2ABFFF00F3DD16 /* RAGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAGalleryFlowLayout.h; sourceTree = "<group>"; };
+		B99CAA341B2ABFFF00F3DD16 /* RAGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAGalleryFlowLayout.m; sourceTree = "<group>"; };
+		B99CAA351B2ABFFF00F3DD16 /* RAGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAGalleryViewController.h; sourceTree = "<group>"; };
+		B99CAA361B2ABFFF00F3DD16 /* RAGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAGalleryViewController.m; sourceTree = "<group>"; };
+		B99CAA3B1B2AC26700F3DD16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B99CAA3E1B2ACA6600F3DD16 /* kitten0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten0.jpg; sourceTree = "<group>"; };
+		B99CAA3F1B2ACA6600F3DD16 /* kitten1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten1.jpg; sourceTree = "<group>"; };
+		B99CAA401B2ACA6600F3DD16 /* kitten2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten2.jpg; sourceTree = "<group>"; };
+		B99CAA411B2ACA6600F3DD16 /* kitten3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99CAA3C1B2AC26700F3DD16 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 		B99CA9FC1B2ABFDD00F3DD16 = {
 			isa = PBXGroup;
 			children = (
+				B99CAA3B1B2AC26700F3DD16 /* CoreGraphics.framework */,
 				B99CAA071B2ABFDD00F3DD16 /* RAGallery */,
 				B99CAA211B2ABFDD00F3DD16 /* RAGalleryTests */,
 				B99CAA061B2ABFDD00F3DD16 /* Products */,
@@ -81,6 +105,9 @@
 		B99CAA071B2ABFDD00F3DD16 /* RAGallery */ = {
 			isa = PBXGroup;
 			children = (
+				B99CAA081B2ABFDD00F3DD16 /* Supporting Files */,
+				B99CAA3D1B2ACA6600F3DD16 /* Images */,
+				B99CAA2E1B2ABFFF00F3DD16 /* RAGallery */,
 				B99CAA0C1B2ABFDD00F3DD16 /* AppDelegate.h */,
 				B99CAA0D1B2ABFDD00F3DD16 /* AppDelegate.m */,
 				B99CAA0F1B2ABFDD00F3DD16 /* ViewController.h */,
@@ -88,7 +115,6 @@
 				B99CAA121B2ABFDD00F3DD16 /* Main.storyboard */,
 				B99CAA151B2ABFDD00F3DD16 /* Images.xcassets */,
 				B99CAA171B2ABFDD00F3DD16 /* LaunchScreen.xib */,
-				B99CAA081B2ABFDD00F3DD16 /* Supporting Files */,
 			);
 			path = RAGallery;
 			sourceTree = "<group>";
@@ -117,6 +143,32 @@
 				B99CAA231B2ABFDD00F3DD16 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B99CAA2E1B2ABFFF00F3DD16 /* RAGallery */ = {
+			isa = PBXGroup;
+			children = (
+				B99CAA351B2ABFFF00F3DD16 /* RAGalleryViewController.h */,
+				B99CAA361B2ABFFF00F3DD16 /* RAGalleryViewController.m */,
+				B99CAA311B2ABFFF00F3DD16 /* RAGalleryCell.h */,
+				B99CAA321B2ABFFF00F3DD16 /* RAGalleryCell.m */,
+				B99CAA331B2ABFFF00F3DD16 /* RAGalleryFlowLayout.h */,
+				B99CAA341B2ABFFF00F3DD16 /* RAGalleryFlowLayout.m */,
+				B99CAA2F1B2ABFFF00F3DD16 /* CGHelpers.h */,
+				B99CAA301B2ABFFF00F3DD16 /* CGHelpers.m */,
+			);
+			path = RAGallery;
+			sourceTree = "<group>";
+		};
+		B99CAA3D1B2ACA6600F3DD16 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B99CAA3E1B2ACA6600F3DD16 /* kitten0.jpg */,
+				B99CAA3F1B2ACA6600F3DD16 /* kitten1.jpg */,
+				B99CAA401B2ACA6600F3DD16 /* kitten2.jpg */,
+				B99CAA411B2ACA6600F3DD16 /* kitten3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B99CAA141B2ABFDD00F3DD16 /* Main.storyboard in Resources */,
+				B99CAA421B2ACA6600F3DD16 /* kitten0.jpg in Resources */,
+				B99CAA451B2ACA6600F3DD16 /* kitten3.jpg in Resources */,
+				B99CAA431B2ACA6600F3DD16 /* kitten1.jpg in Resources */,
 				B99CAA191B2ABFDD00F3DD16 /* LaunchScreen.xib in Resources */,
 				B99CAA161B2ABFDD00F3DD16 /* Images.xcassets in Resources */,
+				B99CAA441B2ACA6600F3DD16 /* kitten2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B99CAA111B2ABFDD00F3DD16 /* ViewController.m in Sources */,
+				B99CAA3A1B2ABFFF00F3DD16 /* RAGalleryViewController.m in Sources */,
+				B99CAA381B2ABFFF00F3DD16 /* RAGalleryCell.m in Sources */,
 				B99CAA0E1B2ABFDD00F3DD16 /* AppDelegate.m in Sources */,
 				B99CAA0B1B2ABFDD00F3DD16 /* main.m in Sources */,
+				B99CAA371B2ABFFF00F3DD16 /* CGHelpers.m in Sources */,
+				B99CAA391B2ABFFF00F3DD16 /* RAGalleryFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +478,7 @@
 				B99CAA2A1B2ABFDD00F3DD16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B99CAA2B1B2ABFDD00F3DD16 /* Build configuration list for PBXNativeTarget "RAGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +487,7 @@
 				B99CAA2D1B2ABFDD00F3DD16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

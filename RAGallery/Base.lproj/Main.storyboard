@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wiv-yh-JlP">
+                                <rect key="frame" x="257" y="550" width="87" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="dfJ-B1-nSD"/>
+                                    <constraint firstAttribute="width" constant="150" id="fEl-F7-O39"/>
+                                </constraints>
+                                <state key="normal" title="Open gallery"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="dfJ-B1-nSD"/>
+                                        <exclude reference="fEl-F7-O39"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="touchUpIn_openGalleryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5d-Ku-KzH"/>
+                                </connections>
+                            </button>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pyA-Ed-c36">
+                                <rect key="frame" x="150" y="20" width="300" height="300"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kitten0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-GP-pTy">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pyA-Ed-c36" secondAttribute="height" multiplier="1:1" id="A65-gz-3S2"/>
+                                    <constraint firstAttribute="height" constant="300" id="LOr-hQ-a1x"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="pyA-Ed-c36" secondAttribute="centerX" id="ZEk-lJ-9VT"/>
+                            <constraint firstAttribute="centerX" secondItem="Wiv-yh-JlP" secondAttribute="centerX" id="ihk-q4-Ltq"/>
+                            <constraint firstItem="pyA-Ed-c36" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="py0-Ql-bHy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wiv-yh-JlP" secondAttribute="bottom" constant="20" id="vod-nx-9c9"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainImageView" destination="mW4-GP-pTy" id="cAX-Zh-4Ao"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="282" y="399"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="kitten0.jpg" width="512" height="512"/>
+    </resources>
 </document>
